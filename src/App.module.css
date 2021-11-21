@@ -13,12 +13,13 @@
     "footer footer footer footer";
   gap: 0.75rem 0.4rem;
 }
-@media screen and (orientation: portrait) and (max-width: 768px) {
-  .App {
+@media screen and (orientation: portrait) and (max-width: 813px) {
+  .appWrapper {
     grid-template-columns: 1fr;
     grid-template-areas:
       "nav"
       "content";
     background-color: blueviolet;
+    max-height: 100%
   }
 }
