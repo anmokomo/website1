@@ -8,7 +8,7 @@ export const RightMenu = () => {
         return null
     }
     return (
-        <div className={styles.leftmenu}>Right Menu</div>
+        <div className={styles.rightmenu}>Right Menu</div>
     )
 }
 
