@@ -13,7 +13,7 @@ export interface UserProfileAction {
 }
 
 //reducers use STATE and ACTION
-export const UserProfileReducer = (
+export const UserReducer = (
     state: any = null,
     action: UserProfileAction
 ): UserProfilePayload | null => {

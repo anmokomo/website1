@@ -1,5 +1,9 @@
 .sidebar {
     min-height: var(--min-screen-height);
     grid-area: sidebar;
-    background-color: aliceblue;
+    background-color: aliceblue
 }
+ul {
+    list-style-type: none
+}
+
